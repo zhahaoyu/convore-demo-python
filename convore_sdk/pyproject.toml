@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "convore-sdk"
+version = "0.1.0"
+description = ""
+authors = ["Zhixuan Lai <zhixuan@tryforest.com>"]
+readme = "README.md"
+packages = [{include = "convore_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+convore-api-client = { path = "../convore_api_client/", develop = false }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

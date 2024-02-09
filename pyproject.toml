@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "convore-demo-python"
+version = "0.1.0"
+description = ""
+authors = ["Haoyu Zha <haoyu@quickpower.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
